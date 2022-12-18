@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           appBar: AppBar(
-            title: Text("Calculadora de costos de importación"),
+            title:const Text("Costos de importación"),
             backgroundColor: Colors.blueGrey,
           ),
-          body: inicio(),
+          body:const Inicio(),
         ));
   }
 }
